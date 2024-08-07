@@ -97,7 +97,7 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add model/best_model.joblib logs/training.log
           git commit -m "Update trained model and logs"
-          git push https://github-actions:${{ secrets.ACTIONS_PAT }}@github.com/arunkpselvam/wine_quality_project.git
+          git push https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/arunkpselvam/wine_quality_project.git
 
   build:
     runs-on: ubuntu-latest
