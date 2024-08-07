@@ -1,0 +1,220 @@
+2024-08-07 11:43:40,965 - root - INFO - SkLearn Version: 1.0.1
+2024-08-07 11:43:41,003 - root - INFO - Data loaded successfully from data/winequality-red.csv
+2024-08-07 11:43:41,003 - root - INFO - Data preprocessing completed
+2024-08-07 11:43:41,003 - root - INFO - Data split into training and test sets
+2024-08-07 11:43:41,003 - root - INFO - Baseline Model Performance:
+2024-08-07 11:43:41,019 - root - INFO - Baseline model training completed
+2024-08-07 11:43:41,035 - root - INFO - Model evaluation completed
+2024-08-07 11:43:41,035 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.61      0.79      0.69       130
+           6       0.51      0.56      0.54       132
+           7       0.71      0.12      0.20        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.57       320
+   macro avg       0.31      0.25      0.24       320
+weighted avg       0.55      0.57      0.53       320
+
+2024-08-07 11:43:41,035 - root - INFO - Accuracy: 0.568750
+2024-08-07 11:43:41,035 - root - INFO - 
+Optimized Model Performance:
+2024-08-07 11:48:12,665 - root - INFO - SkLearn Version: 1.0.1
+2024-08-07 11:48:12,697 - root - INFO - Data loaded successfully from data/winequality-red.csv
+2024-08-07 11:48:12,697 - root - INFO - Data preprocessing completed
+2024-08-07 11:48:12,697 - root - INFO - Data split into training and test sets
+2024-08-07 11:48:12,697 - root - INFO - Baseline Model Performance:
+2024-08-07 11:48:12,713 - root - INFO - Baseline model training completed
+2024-08-07 11:48:12,728 - root - INFO - Model evaluation completed
+2024-08-07 11:48:12,728 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.61      0.79      0.69       130
+           6       0.51      0.56      0.54       132
+           7       0.71      0.12      0.20        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.57       320
+   macro avg       0.31      0.25      0.24       320
+weighted avg       0.55      0.57      0.53       320
+
+2024-08-07 11:48:12,728 - root - INFO - Accuracy: 0.568750
+2024-08-07 11:48:12,728 - root - INFO - 
+Optimized Model Performance:
+2024-08-07 14:19:59,092 - root - INFO - SkLearn Version: 1.4.2
+2024-08-07 14:19:59,108 - root - INFO - Data loaded successfully from data/winequality-red.csv
+2024-08-07 14:19:59,108 - root - INFO - Data preprocessing completed
+2024-08-07 14:19:59,108 - root - INFO - Data split into training and test sets
+2024-08-07 14:19:59,108 - root - INFO - Baseline Model Performance:
+2024-08-07 14:19:59,124 - root - INFO - Baseline model training completed
+2024-08-07 14:19:59,139 - root - INFO - Model evaluation completed
+2024-08-07 14:19:59,139 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.61      0.79      0.69       130
+           6       0.51      0.56      0.54       132
+           7       0.71      0.12      0.20        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.57       320
+   macro avg       0.31      0.25      0.24       320
+weighted avg       0.55      0.57      0.53       320
+
+2024-08-07 14:19:59,139 - root - INFO - Accuracy: 0.568750
+2024-08-07 14:19:59,139 - root - INFO - 
+Optimized Model Performance:
+2024-08-07 14:20:23,437 - root - INFO - Grid search completed
+2024-08-07 14:20:23,453 - root - INFO - Best parameters found: {'bootstrap': True, 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+2024-08-07 14:20:23,469 - root - INFO - Model evaluation completed
+2024-08-07 14:20:23,469 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.74      0.79      0.77       130
+           6       0.64      0.72      0.68       132
+           7       0.59      0.45      0.51        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.68       320
+   macro avg       0.33      0.33      0.33       320
+weighted avg       0.64      0.68      0.66       320
+
+2024-08-07 14:20:23,469 - root - INFO - Accuracy: 0.678125
+2024-08-07 14:20:23,484 - root - INFO - Optimized model saved to model\best_model.pkl
+2024-08-07 14:29:36,049 - root - INFO - SkLearn Version: 1.4.2
+2024-08-07 14:29:36,080 - root - INFO - Data loaded successfully from data/winequality-red.csv
+2024-08-07 14:29:36,096 - root - INFO - Data preprocessing completed
+2024-08-07 14:29:36,112 - root - INFO - Data split into training and test sets
+2024-08-07 14:29:36,112 - root - INFO - Baseline Model Performance:
+2024-08-07 14:29:36,128 - root - INFO - Baseline model training completed
+2024-08-07 14:29:36,144 - root - INFO - Model evaluation completed
+2024-08-07 14:29:36,144 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.61      0.79      0.69       130
+           6       0.51      0.56      0.54       132
+           7       0.71      0.12      0.20        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.57       320
+   macro avg       0.31      0.25      0.24       320
+weighted avg       0.55      0.57      0.53       320
+
+2024-08-07 14:29:36,144 - root - INFO - Accuracy: 0.568750
+2024-08-07 14:29:36,144 - root - INFO - 
+Optimized Model Performance:
+2024-08-07 14:30:01,176 - root - INFO - Grid search completed
+2024-08-07 14:30:01,176 - root - INFO - Best parameters found: {'bootstrap': True, 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+2024-08-07 14:30:01,191 - root - INFO - Model evaluation completed
+2024-08-07 14:30:01,191 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.74      0.79      0.77       130
+           6       0.64      0.72      0.68       132
+           7       0.59      0.45      0.51        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.68       320
+   macro avg       0.33      0.33      0.33       320
+weighted avg       0.64      0.68      0.66       320
+
+2024-08-07 14:30:01,191 - root - INFO - Accuracy: 0.678125
+2024-08-07 14:30:01,259 - root - INFO - Optimized model saved to model\best_model.joblib
+2024-08-07 14:38:49,165 - root - INFO - SkLearn Version: 1.4.2
+2024-08-07 14:38:49,165 - root - INFO - Data loaded successfully from data/winequality-red.csv
+2024-08-07 14:38:49,181 - root - INFO - Data preprocessing completed
+2024-08-07 14:38:49,181 - root - INFO - Data split into training and test sets
+2024-08-07 14:38:49,181 - root - INFO - Baseline Model Performance:
+2024-08-07 14:38:49,196 - root - INFO - Baseline model training completed
+2024-08-07 14:38:49,212 - root - INFO - Model evaluation completed
+2024-08-07 14:38:49,212 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.61      0.79      0.69       130
+           6       0.51      0.56      0.54       132
+           7       0.71      0.12      0.20        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.57       320
+   macro avg       0.31      0.25      0.24       320
+weighted avg       0.55      0.57      0.53       320
+
+2024-08-07 14:38:49,212 - root - INFO - Accuracy: 0.568750
+2024-08-07 14:38:49,212 - root - INFO - 
+Optimized Model Performance:
+2024-08-07 14:39:13,959 - root - INFO - Grid search completed
+2024-08-07 14:39:13,959 - root - INFO - Best parameters found: {'bootstrap': True, 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+2024-08-07 14:39:13,975 - root - INFO - Model evaluation completed
+2024-08-07 14:39:13,975 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.74      0.79      0.77       130
+           6       0.64      0.72      0.68       132
+           7       0.59      0.45      0.51        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.68       320
+   macro avg       0.33      0.33      0.33       320
+weighted avg       0.64      0.68      0.66       320
+
+2024-08-07 14:39:13,975 - root - INFO - Accuracy: 0.678125
+2024-08-07 14:39:14,043 - root - INFO - Optimized model saved to model\best_model.joblib
+2024-08-07 14:50:46,594 - root - INFO - SkLearn Version: 1.4.2
+2024-08-07 14:50:46,610 - root - INFO - Data loaded successfully from data/winequality-red.csv
+2024-08-07 14:50:46,610 - root - INFO - Data preprocessing completed
+2024-08-07 14:50:46,610 - root - INFO - Data split into training and test sets
+2024-08-07 14:50:46,610 - root - INFO - Baseline Model Performance:
+2024-08-07 14:50:46,641 - root - INFO - Baseline model training completed
+2024-08-07 14:50:46,641 - root - INFO - Model evaluation completed
+2024-08-07 14:50:46,641 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.61      0.79      0.69       130
+           6       0.51      0.56      0.54       132
+           7       0.71      0.12      0.20        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.57       320
+   macro avg       0.31      0.25      0.24       320
+weighted avg       0.55      0.57      0.53       320
+
+2024-08-07 14:50:46,641 - root - INFO - Accuracy: 0.568750
+2024-08-07 14:50:46,641 - root - INFO - 
+Optimized Model Performance:
+2024-08-07 14:51:11,762 - root - INFO - Grid search completed
+2024-08-07 14:51:11,762 - root - INFO - Best parameters found: {'bootstrap': True, 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+2024-08-07 14:51:11,778 - root - INFO - Model evaluation completed
+2024-08-07 14:51:11,778 - root - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.74      0.79      0.77       130
+           6       0.64      0.72      0.68       132
+           7       0.59      0.45      0.51        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.68       320
+   macro avg       0.33      0.33      0.33       320
+weighted avg       0.64      0.68      0.66       320
+
+2024-08-07 14:51:11,778 - root - INFO - Accuracy: 0.678125
+2024-08-07 14:51:11,842 - root - INFO - Optimized model saved to model\best_model.joblib
